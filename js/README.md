@@ -14,6 +14,11 @@
 *nginScript目前是早期研发状态。大家可以通过邮件nginx-devel@nginx.org等方式和nginx团队进行沟通和提出你的诉求。
 
 
+### 特性
+
+Nginx有一些独特的需求，他们希望nginScript代码片段可以在Nginx处理请求时运行，以此扩展Nginx处理请求和响应的能力。
+但是，他们无意创建一个像Node.js那样的持久化的JavaScript应用程序运行时环境。
+
 ### link
 
 * https://www.nginx.com/resources/wiki/nginScript/
